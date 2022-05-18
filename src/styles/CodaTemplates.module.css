@@ -1,0 +1,30 @@
+.mainTemplates {
+  background-color: #fbf8f8;
+}
+
+.templatesTitle {
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.templatesTitle h1 {
+  font-size: 60px;
+  margin: 25px 0px;
+  font-weight: 700;
+}
+
+.templatesTitle p {
+  font-size: 19px;
+  margin: 0;
+}
+.group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 77%;
+  margin-left: 150px;
+}

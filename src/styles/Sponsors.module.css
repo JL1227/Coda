@@ -1,0 +1,38 @@
+.codaSponsors {
+  width: 100%;
+  height: 300px;
+  background-color: #fdeede;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.codaSponsors h1 {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+.codaSponsors .sponsor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sponsor img[alt="Figma"], img[alt="New York Times"], img[alt="Square"], img[alt="Robin Wood"], img[alt="Uber"] {
+  margin: 0px 15px 15px;
+}
+
+.sponsor img[alt=TED] {
+  width: 73.13px;
+  height: 28px;
+  margin: 0px 15px 15px;
+}
+
+.sponsor img[alt=Buzzfeed] {
+  width: 158.3px;
+  height: 28px;
+  margin: 0px 15px 15px;
+}
+

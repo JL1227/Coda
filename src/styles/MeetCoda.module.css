@@ -1,0 +1,43 @@
+.mainMeet {
+  width: 100%;
+  height: 450px;
+  background-color: #fdeede;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subMainMeet {
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  width: 900px;
+  height: 300px;
+
+  padding: 30px 50px;
+  border-radius: 20px; 
+} 
+
+.textMeet {
+  padding-right: 80px;
+}
+
+.textMeet h1 {
+  font-size: 26px;
+  margin-top: 20px;
+  color: #101010;
+}
+
+.textMeet p {
+  margin: 0;
+  font-size: 20px;
+  padding-top: 20px;
+  color: rgb(100, 93, 93);
+}
+
+iframe {
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+

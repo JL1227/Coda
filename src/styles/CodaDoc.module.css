@@ -1,0 +1,62 @@
+.codaDoc {
+  display: flex;
+  width: 100%;
+  padding: 100px 170px;
+  background-color: #fdeede;
+}
+
+.subCodaDoc {
+  background-color: white;
+  height: 340px;
+  padding: 50px 65px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 25px 0 0 25px;
+}
+
+.subCodaDoc h1 {
+  font-weight: 900;
+  color: black;  
+}
+
+.subCodaDoc p {
+  padding-bottom: 10px;
+}
+
+.makeADoc {
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 30px;
+    background-color: #101010;
+    color: white;
+    border-radius: 25px;
+    padding: 6px 25px;
+    font-weight: bold;
+}
+
+.makeADoc:hover {
+  background-color: rgb(218, 91, 32);
+  color: white;
+  transition: 0.2s;
+}
+
+.requestDemo {
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid rgb(94, 93, 93);
+  border-radius: 25px;
+  padding: 6px 25px;
+  font-weight: bold;
+}
+.requestDemo:hover {
+  border: 1px solid black;
+  color: black;
+}
+
+.codaDocImg {
+  width: 480px;
+  height: 340px;
+}
